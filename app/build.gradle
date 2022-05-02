@@ -19,7 +19,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.ayst.stresstest"
+        applicationId "com.nolovr.ayst.stresstest"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode
@@ -42,8 +42,8 @@ android {
     signingConfigs {
         release {
             try {
-//                storeFile file("../keystore/noloKeyStore-system")
-                storeFile file("../keystore/nolo-quli-KeyStore-system")
+                storeFile file("../keystore/noloKeyStore-system")
+//                storeFile file("../keystore/nolo-quli-KeyStore-system")
                 storePassword "nolovr"
                 keyAlias "nolo"
                 keyPassword "nolovr"
