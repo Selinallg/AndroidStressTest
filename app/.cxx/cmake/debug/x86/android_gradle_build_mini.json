@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "E:\\Wspace\\AndroidStressTest\\app\\CMakeLists.txt",
+    "D:\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Wspace\\AndroidStressTest\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\Wspace\\AndroidStressTest\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "MemFillTool-Debug-x86": {
+      "artifactName": "MemFillTool",
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Wspace\\AndroidStressTest\\app\\.cxx\\cmake\\debug\\x86\" MemFillTool",
+      "abi": "x86",
+      "output": "E:\\Wspace\\AndroidStressTest\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libMemFillTool.so",
+      "runtimeFiles": []
+    }
+  }
+}

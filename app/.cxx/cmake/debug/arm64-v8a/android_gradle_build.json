@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "E:/Wspace/AndroidStressTest/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DMemFillTool_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "E:\\Wspace\\AndroidStressTest\\app\\CMakeLists.txt",
+    "D:\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Wspace\\AndroidStressTest\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\Wspace\\AndroidStressTest\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "MemFillTool-Debug-arm64-v8a": {
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Wspace\\AndroidStressTest\\app\\.cxx\\cmake\\debug\\arm64-v8a\" MemFillTool",
+      "buildType": "debug",
+      "toolchain": "228155187",
+      "abi": "arm64-v8a",
+      "artifactName": "MemFillTool",
+      "files": [
+        {
+          "src": "E:\\Wspace\\AndroidStressTest\\app\\src\\main\\cpp\\MemFillTool\\MemOpUtils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "E:\\Wspace\\AndroidStressTest\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libMemFillTool.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "228155187": {
+      "cppCompilerExecutable": "D:\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
